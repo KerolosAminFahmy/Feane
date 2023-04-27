@@ -1,0 +1,47 @@
+.FirstSection{
+  padding: 45px 0 75px 0;
+}
+.FirstSection .box{
+  width: 40%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.FirstSection .box h2{
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: 'Dancing Script', cursive;
+}
+.FirstSection .box p{
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.FirstSection .box button{
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #ffbe33;
+  color: #ffffff;
+  border-radius: 45px;
+  transition: all 0.3s;
+  margin-top: 10px;
+  font-size: 20px;
+  width: fit-content;
+}
+.FirstSection .box button:hover{
+  background-color: #e69c00;
+}
+
+.FirstSection .buttons button{
+  width: 18px;
+  height: 18px;
+  margin: 60px 3px 0;
+  background-color: #ffffff;
+  border-radius:50%;
+  transition: all 0.3s;
+}
+.FirstSection .buttons button:hover{
+  transform: scale(1.5);
+  background-color: #ffbe33;
+}

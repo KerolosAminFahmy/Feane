@@ -1,0 +1,206 @@
+/*=================> Start Responsive For Header&First Section <==================*/
+@media(max-width: 1199px) {
+  .ImageBack .Parent{
+    max-width: 960px;
+  }
+}
+@media (max-width: 968px) {
+  .ImageBack .Parent{
+    max-width: 730px;
+    padding:0;
+  }
+  .ImageBack .left .Links{
+    margin-right: 10px;
+  }
+  .ImageBack .header{
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .ImageBack .left .Links ul li {
+    padding: 20px 10px;
+  }
+  .ImageBack{
+    height: fit-content;
+  }
+  .ImageBack img{
+    height: 100%;
+  }
+}
+/*=================> End Responsive For Header&First Section <==================*/
+/*=================> Start Responsive For Food Section <==================*/
+
+@media (max-width: 750px) {
+  .ImageBack .Parent{
+    max-width: 450px;
+    padding:0 20px;
+  }
+  .ImageBack .left .Links{
+    display: none;
+  }
+  .ImageBack .left .OrderInfo{
+    display: none;
+  }
+  .ImageBack .left .mobileView .lines{
+    display: flex;
+  }
+  .FirstSection .box{
+    width: 100%;
+  }
+}
+/*Large Screen*/
+@media (min-width: 1200px){
+  .FoodSection {
+      max-width: 1170px;
+  }
+  .FoodSection .AllFood .Box{
+    max-width: calc(1060px/3);
+  }
+}
+/*Laptop Screen*/
+@media (max-width: 1199px){
+  .FoodSection {
+    max-width: 960px;
+  }
+  .FoodSection .AllFood .Box{
+    max-width: calc(890px/3);
+  }
+}
+/*Tablet Screen*/
+@media (max-width: 970px){
+  .FoodSection {
+      max-width: 720px;
+  }
+  .FoodSection .AllFood .Box{
+    max-width: calc(660px/2);
+  }
+}
+/*Large Mobile*/
+@media (max-width:730px){
+  .FoodSection {
+      max-width: 95%;
+      margin: 0 auto;
+  }
+  .FoodSection .AllFood .Box{
+    max-width: 100%;
+  }
+}
+/*=================> End Responsive For Food Section <==================*/
+/*=================> Start Responsive For About Section <==================*/
+@media (max-width: 1199px){
+  .AboutSection .Parent {
+    max-width: 960px;
+  }
+}
+@media (max-width: 970px){
+  .AboutSection .Parent {
+      max-width: 720px;
+  }
+  .AboutSection .Image img{
+    max-width: 330px;
+  }
+}
+@media (max-width:730px){
+  .AboutSection .Parent {
+      flex-direction: column-reverse;
+      max-width: 540px;
+  }
+  .AboutSection .Image img{
+    max-width: 330px;
+  }
+}
+@media (max-width:490px){
+  .AboutSection .Parent {
+    max-width: 95%;
+  }
+  .AboutSection .Image img{
+    max-width: 98%;
+  }
+}
+/*=================> End Responsive For About Section <==================*/
+/*=================> Start Responsive For Offer Section <==================*/
+@media (max-width: 1199px){
+  .OfferSection .Parent {
+    max-width: 960px;
+  }
+  .OfferSection .Parent .cards .card{
+    width: calc(940px/2);
+  }
+}
+@media (max-width: 970px){
+  .OfferSection .Parent {
+      max-width: 720px;
+  }
+  .OfferSection .Parent .cards .card{
+    width: calc(690px/2);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .OfferSection .Parent .cards .Image{
+    margin-bottom: 10px;
+  }
+}
+@media (max-width:730px){
+  .OfferSection .Parent {
+      flex-direction: column-reverse;
+      max-width: 540px;
+  }
+  .OfferSection .Parent .cards .card{
+    width: 95%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .OfferSection .Parent .cards .Image{
+    margin-bottom: 10px;
+  }
+}
+@media (max-width:490px){
+  .OfferSection .Parent {
+    max-width: 98%;
+  }
+  .OfferSection .Parent .cards{
+    justify-content: center;
+  }
+}
+/*=================> End Responsive For Offer Section <==================*/
+/*=================> Start Responsive For Footer Section <==================*/
+@media (max-width: 1199px){
+  footer .Parent {
+    max-width: 960px;
+  }
+  footer .Parent .Info{
+    width: calc(950px/3);
+  }
+}
+@media (max-width: 970px){
+  footer .Parent {
+      max-width: 720px;
+  
+  }
+  footer .Parent .Info{
+    width: calc(720px/3);
+  }
+  
+
+}
+@media (max-width:730px){
+  footer .Parent{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  footer .Parent .Info{
+    width:95%;
+    margin-bottom: 40px;
+  }
+  .Parent {
+      max-width: 540px;
+  }
+}
+/*=================> End Responsive For Footer Section <==================*/

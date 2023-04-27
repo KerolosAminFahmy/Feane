@@ -1,0 +1,122 @@
+.ImageBack{
+  position: relative;
+  height: 100vh;
+}
+.ImageBack img{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+.ImageBack .Parent{
+  max-width: 1170px;
+  display: flex;
+  flex-direction: column;
+  margin :0 auto;
+  padding:0 40px;
+}
+
+.ImageBack .Header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.ImageBack .Header .logo{
+  width: fit-content;
+    font-weight: bold;
+    font-size: 32px;
+    padding-bottom:8px;
+    color: #ffffff !important;
+    font-family: 'Dancing Script', cursive;
+}
+.ImageBack .left{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ImageBack .left .Links{
+  margin-right: 100px;
+  transition: all 0.3s;
+}
+.ImageBack .left .Links ul{
+  display: flex;
+  align-items: center;
+}
+.ImageBack .left .Links ul li{
+  padding: 20px;
+}
+.ImageBack .left .Links ul li a{
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.ImageBack .left .Links ul li a:hover{
+  color: #ffbe33;
+}
+.ImageBack .left .OrderInfo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.ImageBack .left .OrderInfo .Icon{
+  color: #ffffff;
+
+}
+.ImageBack .left .OrderInfo .Icon i{
+  margin: 0 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.ImageBack .left .OrderInfo .Icon i:hover{
+  color: #ffbe33;
+}
+.ImageBack .left .OrderInfo .Order button{
+  background-color: #ffbe33;
+  border-radius: 20px;
+  padding: 8px 30px;
+  color: #ffffff;
+  font-size: larger;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.ImageBack .left .OrderInfo .Order button:hover{
+  background-color: #e69c00;
+}
+.active{
+  color: #ffbe33 !important;
+}
+.ImageBack .left .mobileView .lines{
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.ImageBack .left .mobileView .lines:hover{
+  transform:rotate(360deg);
+}
+.ImageBack .left .mobileView .lines .line{
+  background-color: #ffffff;
+  width: 50px;
+  height: 5px;
+  border-radius:20px;
+  margin-bottom: 8px;
+  transition: all 0.3s;
+}
+.ImageBack .left .mobileView .lines:hover .line:nth-child(2){
+  opacity: 0;
+  display: none;
+}
+.ImageBack .left .mobileView .lines:hover .line:nth-child(1)
+{
+  transform: rotate(43deg) translateY(10px);
+}
+.ImageBack .left .mobileView .lines:hover .line:nth-child(3){
+  transform: rotate(312deg) translateY(-7px);
+}

@@ -1,0 +1,47 @@
+.AboutSection{
+  background: #222831;
+  color: #ffffff;
+  padding:90px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
+}
+.AboutSection .Parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  width: 1170px;
+}
+.AboutSection .Image {
+  margin-right: 20px;
+  padding:0 15px;
+}
+.AboutSection .Image img{
+    max-width: 445px;
+}
+.AboutSection .Detail{
+  padding:0 15px;
+  margin-bottom: 15px;
+}
+.AboutSection .Detail h2{
+  font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+.AboutSection .Detail p{
+  margin-top: 15px;
+}
+.AboutSection .Detail button{
+  display: inline-block;
+    padding: 10px 45px;
+    background-color: #ffbe33;
+    color: #ffffff;
+    border-radius: 45px;
+    transition: all 0.3s; 
+    margin-top: 15px;
+  cursor: pointer;
+}
+.AboutSection .Detail button:hover{
+  background-color: #e69c00;
+}
